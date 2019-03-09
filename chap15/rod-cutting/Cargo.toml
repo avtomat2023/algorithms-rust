@@ -1,0 +1,12 @@
+[package]
+name = "rod-cutting"
+version = "0.1.0"
+authors = ["yoshrc <immortal836@gmail.com>"]
+edition = "2018"
+
+[[bench]]
+name = "dp"
+harness = false
+
+[dev-dependencies]
+criterion = "0.2.10"
